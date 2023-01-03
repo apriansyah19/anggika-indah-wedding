@@ -101,7 +101,7 @@
     </div> -->
 
       <div
-        class="min-h-screen w-full md:mx-auto flex bg-[#cfcabc] font-akaya "
+        class="min-h-screen w-full md:mx-auto flex bg-[#cfcabc] font-akaya snow-bg"
         id="kata-pengantar"
       >
 
@@ -132,7 +132,7 @@
             data-aos-once="true"
           >
             Maka izinkan kami mengundang sekaligus mengharapkan doa restu dari
-            bapak/ibu dan saudara/i dalam acara ngunduh mantu kami
+            bapak/ibu dan saudara/i dalam acara pernikahan kami
           </p>
           <img
             src="../../public/decoration-17.png"
