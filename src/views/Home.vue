@@ -1,11 +1,11 @@
 <template>
   <div class="h-screen w-screen flex justify-center">
     <div
-      class="h-full w-full md:w-1/3 md:mx-auto bg-[url(./foto_1_new_cut.jpg)] relative bg-contain bg-auto bg-cover bg-center py-8 text-[#958277] font-[300] font-akaya flex relative z-20 transition-transform ease-in-out delay-500"
+      class="h-full w-full md:w-1/3 md:mx-auto bg-[url(./fotoBersamaDepan.jpg)] relative bg-contain bg-auto bg-cover bg-center py-8 text-[#958277] font-[300] font-akaya flex relative z-20 transition-transform ease-in-out delay-500"
       :class="[show ? '-translate-y-full' : '']"
     >
       <audio id="audio" loop>
-        <source src="../assets/audios/ngunduhMantuBS_cut.mp3" type="audio/mpeg" />
+        <source src="../assets/audios/backsound-marry_you_daughter.mp3" type="audio/mpeg" />
       </audio>
       <div class="min-h-1/2 w-4/5 m-auto">
         <!-- <img src="../../public/decoration-2.png" class="w-full" /> -->
@@ -28,7 +28,7 @@
           <h1
             class="text-center text-[#ffffff] text-[calc(50px*0.75)] leading-[1] tracking-[2px] mt-4 pt-4 animate-[scale-in-bottom_1s_ease-in-out_1.1s_both]" style="text-shadow: 2px 3px 2px #171616;"
           >
-            Soni & Tuti
+            Indah & Anggika
           </h1>
           <!-- <h2
             class="uppercase text-center tracking-[1px] my-2 text-[calc(20px*0.75)] animate-[fade-in-bottom_1s_ease-in-out_1.5s_both]"
@@ -47,16 +47,16 @@
             {{ undangan.replace(/\;/g, " ").replace(/\=/g, "&") }}
           </h1>
           <p
-            class=" text-[#ffffff] text-center text-[calc(15px*0.75)] animate-[fade-in-bottom_1s_ease-in-out_2.4s_both] px-4" style="text-shadow: 3px 1px 3px #171616;"
+            class=" text-[#ffffff] text-center text-[calc(18px*0.75)] animate-[fade-in-bottom_1s_ease-in-out_2.4s_both] px-4" style="text-shadow: 3px 1px 3px #171616;"
           >
-            Kami mengundang anda untuk hadir diacara Ngunduh Mantu kami.
+            Kami mengundang anda untuk hadir diacara Pernikahan kami.
           </p>
           <div class="animate-[fade-in-top_1s_ease-in-out_2.5s_both]">
             <button
               @click="clickOpen"
               class="animate-bounce px-2 py-2 bg-[#958277] text-white rounded-lg mt-8 hover:opacity-80 focus:outline-none active:outline-none text-base block mx-auto"
             >
-              <i class="fas fa-heart text-red-500 shadow"></i> Buka Undangan
+              <i class="fas fa-heart text-red-500"></i> Buka Undangan
             </button>
           </div>
         </div>
@@ -157,9 +157,9 @@
           </h1>
 
           <div class="columns-2 flex">
-            <div class="w-1/3 h-full relative">
+            <div class="w-2/4 h-full relative">
               <img
-                src="../assets/images/tuti_solo.jpg"
+                src="../assets/images/fotocewe1.jpg"
                 class="w-full h-full rounded-xl ml-3 shadow-2xl shadow-[#6b6b67]"
                 data-aos="zoom-in-up"
                 data-aos-duration="1500"
@@ -170,13 +170,13 @@
 
             <div class="m-auto w-2/3">
               <h2
-                class="text-center text-2xl px-2 w-full"
+                class="text-center text-lg px-2 w-full"
                 data-aos="zoom-in-up"
                 data-aos-duration="1500"
                 data-aos-once="true"
               >
-                 Tuti Hasanah,
-                <span class="text-xl">S.I.Kom.</span>
+                 Indah Parina ,
+                <span class="text-xl">Amd.keb.</span>
               </h2>
               <p
                 class="text-center w-full text-sm mx-auto mt-4 leading-4 px-2"
@@ -185,8 +185,8 @@
                 data-aos-once="true"
               >
                 <b>Putri Kedua</b> dari Bapak <br />
-                <b>Adek Suherman</b> <br />
-                & Ibu <b>Ita Maya Sari</b>
+                <b>Muhram</b> <br />
+                & Ibu <b>Rusia</b>
               </p>
             </div>
           </div>
@@ -216,12 +216,12 @@
           <div class="columns-2 flex">
             <div class="m-auto w-2/3">
               <h2
-                class="text-center text-2xl px-2"
+                class="text-center text-lg px-2"
                 data-aos="zoom-in-up"
                 data-aos-duration="1500"
                 data-aos-once="true"
               >
-                Soni Putrawan, <span class="text-xl">A.Md.</span>
+                Anggika Dwi Okta , <span class="text-xl"> S.p</span>
               </h2>
 
               <p
@@ -230,17 +230,17 @@
                 data-aos-duration="1500"
                 data-aos-once="true"
               >
-                <b>Putra Keempat</b> dari Bapak
-                <b> <br />Sugito (Alm. )</b>
+                <b>Putra Kedua</b> dari Bapak
+                <b> <br />Ariyanto S.Pd</b>
                 <br />
                 & Ibu
-                <b>Martini</b>
+                <b>Aripa</b>
               </p>
             </div>
 
-            <div class="w-1/3 h-full relative mr-3">
+            <div class="w-2/4 h-full relative mr-3">
               <img
-                src="../assets/images/soni_solo.jpg"
+                src="../assets/images/cowo_1.jpg"
                 class="w-full h-full rounded-xl shadow-2xl shadow-[#6b6b67]"
                 data-aos="zoom-in-up"
                 data-aos-duration="1500"
@@ -276,7 +276,7 @@
               data-aos-duration="1500"
               data-aos-once="true"
             >
-              <h1 class="text-4xl mt-2">Soni & Tuti</h1>
+              <h1 class="text-4xl mt-2">Indah & Anggika</h1>
             </div>
 
 
@@ -290,19 +290,72 @@
               akan melaksanakan
             </p> -->
             <div
-              class="w-[80%] bg-[url(./image1.png)] bg-[#cfc3bd] h-[250px] bg-blend-multiply bg-[center_top_-2rem] bg-cover text-white p-4 mx-auto rounded-xl border-[1px] border-[#CED4D9] mb-4 flex flex-col justify-end shadow-slate-400 shadow-lg"
+              class="w-[80%] bg-[url(./fotoBersamaDepan.jpg)] bg-[#cfc3bd] h-[250px] bg-cover bg-center text-white p-4 mx-auto rounded-xl border-[1px] border-[#CED4D9] mb-4 flex flex-col justify-end shadow-[#4f4f4f] shadow-lg"
               data-aos="zoom-in-down"
               data-aos-duration="1500"
               data-aos-once="true"
             >
-              <h1 class="text-xl text-center mb-4">Akad Nikah</h1>
-              <p class="text-center text-sm">
-                <i class="fas fa-calendar"></i> Telah dilaksanakan Rabu, 18 Mei 2022
+              <h1 class="text-lg text-center mb-4" style="text-shadow: 2px 4px 2px #171616;">Akad Nikah</h1>
+              <p class="text-center text-sm" style="text-shadow: 2px 4px 2px #171616;">
+                <i class="fas fa-calendar"></i> Jum'at, 24 Februari 2023
               </p>
-              <!-- <p class="text-center text-sm">
+              <p class="text-center text-sm" style="text-shadow: 2px 4px 2px #171616;">
                 <i class="fas fa-clock"></i> 08:00 - Selesai WIB
-              </p> -->
+              </p>
             </div>
+
+            <div
+              data-aos="zoom-in-up"
+              data-aos-duration="1500"
+              data-aos-once="true"
+              class="mb-4"
+            >
+              <Countdown
+                :time="akadnikah"
+                v-slot="{ days, hours, minutes, seconds }"
+                v-if="akadnikah > 0"
+              >
+                <div
+                  class="flex justify-center items-stretch text-white gap-4 text-akaya"
+                >
+                  <div
+                    class="font-akaya rounded-lg bg-[#958277] w-[60px] p-1 text-center"
+                  >
+                    {{ days }} <br />Hari
+                  </div>
+                  <div
+                    class="font-akaya rounded-lg bg-[#958277] w-[60px] p-1 text-center"
+                  >
+                    {{ hours }} <br />Jam
+                  </div>
+                  <div
+                    class="font-akaya rounded-lg bg-[#958277] w-[60px] p-1 text-center"
+                  >
+                    {{ minutes }} <br />Menit
+                  </div>
+                  <div
+                    class="font-akaya rounded-lg bg-[#958277] w-[60px] p-1 text-center"
+                  >
+                    {{ seconds }} <br />Detik
+                  </div>
+                </div>
+              </Countdown>
+
+              <div
+                v-else-if="-86484928 < dday"
+                class="p-3 bg-[#958277] text-white text-lg mx-10 text-center shadow rounded-[10px]"
+              >
+                Acara sedang Berlangsung Hari Ini!
+              </div>
+              <div
+                v-else
+                class="p-3 bg-[#958277] text-white text-lg mx-10 text-center shadow rounded-[10px]"
+              >
+                Acara sudah Selesai!
+              </div>
+              <!-- <div v></div> -->
+            </div>
+
             <img  
               src="../../public/decoration-40.png" 
               class="w-full mb-1"
@@ -311,17 +364,90 @@
               data-aos-once="true" 
               />
             <div
-              class="w-[80%] bg-[url(./foto_1_new.jpg)] h-[250px] bg-blend-multiply bg-top bg-cover text-white p-4 mx-auto rounded-xl border-[1px] border-[#CED4D9] mb-4 flex flex-col justify-end shadow-slate-400 shadow-lg"
+              class="w-[80%] bg-[url(./fotoDepan.jpg)] h-[250px] bg-blend-multiply bg-cover bg-center text-white p-4 mx-auto rounded-xl border-[1px] border-[#CED4D9] mb-4 flex flex-col justify-end shadow-slate-400 shadow-lg"
               data-aos="zoom-in-down"
               data-aos-duration="1500"
               data-aos-once="true"
             >
-              <h1 class="text-xl text-center mb-4" style="text-shadow: 3px 1px 3px #6b6b67;">Ngunduh Mantu</h1>
+              <h1 class="text-xl text-center mb-4" style="text-shadow: 3px 1px 3px #6b6b67;">Pesta</h1>
               <p class="text-center text-sm" style="text-shadow: 3px 1px 3px #6b6b67;">
-                <i class="fas fa-calendar"></i> Minggu, 26 Juni 2022
+                <i class="fas fa-calendar"></i> Jum'at, 24 Februari 2023
               </p>
               <p class="text-center text-sm" style="text-shadow: 3px 1px 3px #6b6b67;">
-                <i class="fas fa-clock"></i> 09:00 - Selesai WIB
+                <i class="fas fa-clock"></i> 13:00 - Selesai WIB
+              </p>
+            </div>
+
+            <div
+              data-aos="zoom-in-up"
+              data-aos-duration="1500"
+              data-aos-once="true"
+            >
+              <Countdown
+                :time="pesta"
+                v-slot="{ days, hours, minutes, seconds }"
+                v-if="pesta > 0"
+              >
+                <div
+                  class="flex justify-center items-stretch text-white gap-4 text-akaya"
+                >
+                  <div
+                    class="font-akaya rounded-lg bg-[#958277] w-[60px] p-1 text-center"
+                  >
+                    {{ days }} <br />Hari
+                  </div>
+                  <div
+                    class="font-akaya rounded-lg bg-[#958277] w-[60px] p-1 text-center"
+                  >
+                    {{ hours }} <br />Jam
+                  </div>
+                  <div
+                    class="font-akaya rounded-lg bg-[#958277] w-[60px] p-1 text-center"
+                  >
+                    {{ minutes }} <br />Menit
+                  </div>
+                  <div
+                    class="font-akaya rounded-lg bg-[#958277] w-[60px] p-1 text-center"
+                  >
+                    {{ seconds }} <br />Detik
+                  </div>
+                </div>
+              </Countdown>
+
+              <div
+                v-else-if="-86484928 < dday"
+                class="p-3 bg-[#958277] text-white text-lg mx-10 text-center shadow rounded-[10px]"
+              >
+                Acara sedang Berlangsung Hari Ini!
+              </div>
+              <div
+                v-else
+                class="p-3 bg-[#958277] text-white text-lg mx-10 text-center shadow rounded-[10px]"
+              >
+                Acara sudah Selesai!
+              </div>
+              <!-- <div v></div> -->
+            </div>
+
+            <img  
+              src="../../public/decoration-40.png" 
+              class="w-full mb-1"
+              data-aos="zoom-in-down"
+              data-aos-duration="1500"
+              data-aos-once="true" 
+              />
+            <div
+              class="w-[80%] bg-[url(./fotobersama4.jpg)] h-[250px] bg-blend-multiply bg-center bg-cover text-white p-4 mx-auto rounded-xl border-[1px] border-[#CED4D9] mb-4 flex flex-col justify-end shadow-slate-400 shadow-lg"
+              data-aos="zoom-in-down"
+              data-aos-duration="1500"
+              data-aos-once="true"
+            >
+              <h1 class="text-xl text-center mb-4" style="text-shadow: 3px 1px 3px #6b6b67;">Resepsi</h1>
+              <p class="text-center text-sm" style="text-shadow: 3px 1px 3px #6b6b67;">
+                <i class="fas fa-calendar"></i> Sabtu, 25 Februari 2023
+              </p>
+              <p class="text-center text-sm" style="text-shadow: 3px 1px 3px #6b6b67;">
+                <i class="fas fa-clock"></i> 08:00 - Selesai WIB
               </p>
             </div>
 
@@ -504,7 +630,7 @@
             class="w-full mb-1" 
           />
 
-          <div class="flex m-auto">
+          <!-- <div class="flex m-auto">
           <div class="w-full h-full relative mx-2 mb-3">
               <img
                 src="../assets/images/foto_1_new.jpg"
@@ -515,14 +641,14 @@
                 alt=""
               />
             </div>
-          </div>
+          </div> -->
 
           <div class="flex m-auto">
 
             <div class="w-1/3 h-full relative ml-3">
               <img
-                src="../assets/images/foto_3_new.jpg"
-                class="w-full h-full rounded-xl shadow-lg shadow-emerald-900"
+                src="../assets/images/fotobersama5.jpg"
+                class="w-full h-full rounded-xl shadow-lg shadow-[#6b6b67]"
                 data-aos="zoom-in-up"
                 data-aos-duration="1500"
                 data-aos-once="true"
@@ -532,7 +658,7 @@
 
             <div class="w-1/3 h-full relative mx-2">
               <img
-                src="../assets/images/soni_solo.jpg"
+                src="../assets/images/cowo_1_new.png"
                 class="w-full h-full rounded-xl shadow-lg shadow-[#6b6b67]"
                 data-aos="zoom-in-up"
                 data-aos-duration="1500"
@@ -543,7 +669,7 @@
 
             <div class="w-1/3 h-full relative mr-3">
               <img
-                src="../assets/images/foto_5_new.jpg"
+                src="../assets/images/fotoBersamaDepan_new.png"
                 class="w-full h-full rounded-xl shadow-lg shadow-[#6b6b67]"
                 data-aos="zoom-in-up"
                 data-aos-duration="1500"
@@ -561,7 +687,7 @@
 
             <div class="w-1/3 h-full relative ml-3">
               <img
-                src="../assets/images/foto_2_new.jpg"
+                src="../assets/images/fotobersama6.jpg"
                 class="w-full h-full rounded-xl shadow-lg shadow-[#6b6b67]"
                 data-aos="zoom-in-up"
                 data-aos-duration="1500"
@@ -572,7 +698,7 @@
 
             <div class="w-1/3 h-full relative mx-2">
               <img
-                src="../assets/images/tuti_solo.jpg"
+                src="../assets/images/fotocewe1_new.png"
                 class="w-full h-full rounded-xl shadow-lg shadow-[#6b6b67]"
                 data-aos="zoom-in-up"
                 data-aos-duration="1500"
@@ -583,7 +709,36 @@
 
             <div class="w-1/3 h-full relative mr-3">
               <img
-                src="../assets/images/foto_4_new.jpg"
+                src="../assets/images/fotobersama7.jpg"
+                class="w-full h-full rounded-xl shadow-lg shadow-[#6b6b67]"
+                data-aos="zoom-in-up"
+                data-aos-duration="1500"
+                data-aos-once="true"
+                alt=""
+              />
+            </div>
+            
+          </div>
+
+          <div class="flex m-auto mt-4">
+            <!-- <div class="m-auto w-2/3">
+
+            </div> -->
+
+            <div class="w-2/3 h-full relative ml-3">
+              <img
+                src="../assets/images/fotobersama1.jpg"
+                class="w-full h-full rounded-xl shadow-lg shadow-[#6b6b67]"
+                data-aos="zoom-in-up"
+                data-aos-duration="1500"
+                data-aos-once="true"
+                alt=""
+              />
+            </div>
+
+            <div class="w-2/3 h-full relative mx-3">
+              <img
+                src="../assets/images/fotoBersama2_new.jpg"
                 class="w-full h-full rounded-xl shadow-lg shadow-[#6b6b67]"
                 data-aos="zoom-in-up"
                 data-aos-duration="1500"
@@ -742,40 +897,19 @@
               data-aos-once="true"
             >
               <img
-                src="../assets/images/logo-bca.png"
+                src="../assets/images/Logo-BNI.png"
                 class="w-28 mx-auto mb-6"
                 alt=""
               />
-              <p class="text-center font-bold">8525320142</p>
-              <p class="text-center text-xl">a/n Tuti Hasanah</p>
+              <p class="text-center font-bold">0605538271</p>
+              <p class="text-center text-xl">a/n Indah parina</p>
               <button
-              @click="onClickCopyNorek('bca')"
+              @click="onClickCopyNorek('bni')"
               class=" min-w-[75px] px-4 py-2 bg-[#958277] text-white rounded-2xl hover:opacity-80 focus:outline-none active:outline-none text-base block mx-auto my-2"
             >
-             <i class="far fa-copy text-white"></i> {{btnBCA ? 'Berhasil di copy' : 'Copy Text'}}
+             <i class="far fa-copy text-white"></i> {{btnBNI ? 'Berhasil di copy' : 'Copy Text'}}
             </button>
 
-            </div>
-
-            <div
-              class="mt-4 p-4 bg-[url('./pattern.jpg')] bg-contain rounded-lg shadow-lg shadow-slate-400"
-              data-aos="zoom-in-down"
-              data-aos-duration="1500"
-              data-aos-once="true"
-            >
-              <img
-                src="../assets/images/logo-bri-preview.png"
-                class="w-40 mx-auto mb-6"
-                alt=""
-              />
-              <p class="text-center font-bold">5759-01-009500-53-4</p>
-              <p class="text-center text-xl">a/n Soni Putrawan</p>
-                <button
-              @click="onClickCopyNorek('bri')"
-              class=" min-w-[75px] px-4 py-2 bg-[#958277] text-white rounded-2xl hover:opacity-80 focus:outline-none active:outline-none text-base block mx-auto my-2"
-            >
-             <i class="far fa-copy text-white"></i> {{btnBRI ? 'Berhasil di copy' : 'Copy Text'}}
-            </button>
             </div>
             <img
               src="../../public/decoration-2.png"
@@ -829,8 +963,7 @@ export default {
       nama: null,
       konfirmasi: null,
       ucap: null,
-      btnBCA: false,
-      btnBRI: false
+      btnBNI: false,
       // locationMap: 'https://maps.google.com/maps?q=-3.231483%2C%20103.2052618&t=m&z=16&output=embed&iwloc=near'
       // center: { lat: -3.231483, lng: 103.2052618 }
     };
@@ -995,13 +1128,9 @@ export default {
     },
     onClickCopyNorek(flag) {
       let noRek = ''
-      if (flag === 'bca') {
-        noRek = '8525320142'
-        this.btnBCA = true
-      }
-      else {
-        noRek = '575901009500534'
-        this.btnBRI = true
+      if (flag === 'bni') {
+        noRek = '0605538271'
+        this.btnBNI = true
       }
 
       const mySmartTextarea = document.createElement("textarea");
@@ -1012,15 +1141,24 @@ export default {
       document.execCommand("copy");
       mySmartTextarea.remove();
       setTimeout(() => {
-        this.btnBRI = false
-        this.btnBCA = false
+        this.btnBNI = false
       }, 1500);
     },
   },
   computed: {
     dday() {
       return (
-        new Date("June 26, 2022 09:00:00").getTime() - new Date().getTime()
+        new Date("February 25, 2023 08:00:00").getTime() - new Date().getTime()
+      );
+    },
+    akadnikah() {
+      return (
+        new Date("February 24, 2023 08:00:00").getTime() - new Date().getTime()
+      );
+    },
+    pesta() {
+      return (
+        new Date("February 24, 2023 13:00:00").getTime() - new Date().getTime()
       );
     },
   },
