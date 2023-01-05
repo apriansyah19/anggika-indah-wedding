@@ -290,7 +290,7 @@
               akan melaksanakan
             </p> -->
             <div
-              class="w-[80%] bg-[url(./fotoBersamaDepan.jpg)] bg-[#cfc3bd] h-[250px] bg-cover bg-center text-white p-4 mx-auto rounded-xl border-[1px] border-[#CED4D9] mb-4 flex flex-col justify-end shadow-[#4f4f4f] shadow-lg"
+              class="w-[80%] bg-[url(./fotoBersamaDepan.jpg)] bg-[#cfc3bd] h-72 bg-cover bg-center text-white p-4 mx-auto rounded-xl border-[1px] border-[#CED4D9] mb-4 flex flex-col justify-end shadow-[#4f4f4f] shadow-lg"
               data-aos="zoom-in-down"
               data-aos-duration="1500"
               data-aos-once="true"
@@ -364,7 +364,7 @@
               data-aos-once="true" 
               />
             <div
-              class="w-[80%] bg-[url(./fotoDepan.jpg)] h-[250px] bg-blend-multiply bg-cover bg-center text-white p-4 mx-auto rounded-xl border-[1px] border-[#CED4D9] mb-4 flex flex-col justify-end shadow-slate-400 shadow-lg"
+              class="w-[80%] bg-[url(./fotobersama7.jpg)] h-72 bg-blend-multiply bg-cover bg-center text-white p-4 mx-auto rounded-xl border-[1px] border-[#CED4D9] mb-4 flex flex-col justify-end shadow-slate-400 shadow-lg"
               data-aos="zoom-in-down"
               data-aos-duration="1500"
               data-aos-once="true"
@@ -437,7 +437,7 @@
               data-aos-once="true" 
               />
             <div
-              class="w-[80%] bg-[url(./fotobersama4.jpg)] h-[250px] bg-blend-multiply bg-center bg-cover text-white p-4 mx-auto rounded-xl border-[1px] border-[#CED4D9] mb-4 flex flex-col justify-end shadow-slate-400 shadow-lg"
+              class="w-[80%] bg-[url(./fotobersama6.jpg)] h-72 bg-blend-multiply bg-center bg-cover text-white p-4 mx-auto rounded-xl border-[1px] border-[#CED4D9] mb-4 flex flex-col justify-end shadow-slate-400 shadow-lg"
               data-aos="zoom-in-down"
               data-aos-duration="1500"
               data-aos-once="true"
@@ -529,14 +529,14 @@
             class="w-3/5 mx-auto"
             alt=""
           /> -->
-          <div
+          <!-- <div
               class="w-[95%] m-auto rounded-xl border-[1px] border-[#CED4D9] bg-white"
               data-aos="zoom-in-down"
               data-aos-duration="1500"
               data-aos-once="true"
-            >
-            <div class="w-[97%] m-auto">
-             <iframe 
+            > -->
+            <!-- <div class="w-[97%] m-auto"> -->
+             <!-- <iframe 
               width="100%" 
               height="350" 
               frameborder="0" 
@@ -544,7 +544,7 @@
               marginheight="0" 
               marginwidth="0" 
              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.02579920512838!2d104.73633907775816!3d-2.982836022772477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b755c7f2b41c5%3A0x6fcdace0b5e7cfc1!2sKost%20Bu%20JAMILAH!5e0!3m2!1sid!2sid!4v1655116598588!5m2!1sid!2sid">
-          </iframe>
+          </iframe> -->
           
           
             <!-- <GoogleMap
@@ -561,9 +561,9 @@
                  }
                 }" />
             </GoogleMap> -->
-            </div>
+            <!-- </div> -->
 
-          </div>
+          <!-- </div> -->
             <h2
               class="text-center text-lg mt-4"
               data-aos="zoom-in-up"
@@ -578,7 +578,7 @@
               data-aos-duration="1500"
               data-aos-once="true"
             >
-              Minggu, 26 <sup>th</sup> June 2022
+              Akad Nikah
             </h3>
             <p
               class="text-center text-xs mt-2"
@@ -586,9 +586,25 @@
               data-aos-duration="1500"
               data-aos-once="true"
             >
-              Gg. Ikhlas, Lorok Pakjo, Kec. Ilir Bar. I, Kota Palembang, Sumatera Selatan
+              Masjid Nurul Huda Desa Keban 2
             </p>
-            <div
+            <h3
+              class="text-center text-base mt-2"
+              data-aos="zoom-in-down"
+              data-aos-duration="1500"
+              data-aos-once="true"
+            >
+              Pesta dan Resepsi
+            </h3>
+            <p
+              class="text-center text-xs mt-2"
+              data-aos="zoom-in-up"
+              data-aos-duration="1500"
+              data-aos-once="true"
+            >
+              Gedung Serba Guna Desa Keban 2
+            </p>
+            <!-- <div
               class="w-full flex"
               data-aos="zoom-in-down"
               data-aos-duration="1500"
@@ -601,7 +617,7 @@
               >
                 Lihat Lokasi
               </a>
-            </div>
+            </div> -->
             <img
               src="../../public/decoration-2.png"
               class="w-full mt-4 rotate-180"
@@ -687,7 +703,7 @@
 
             <div class="w-1/3 h-full relative ml-3">
               <img
-                src="../assets/images/fotobersama6.jpg"
+                src="../assets/images/fotobersama4.jpg"
                 class="w-full h-full rounded-xl shadow-lg shadow-[#6b6b67]"
                 data-aos="zoom-in-up"
                 data-aos-duration="1500"
@@ -698,7 +714,7 @@
 
             <div class="w-1/3 h-full relative mx-2">
               <img
-                src="../assets/images/fotocewe1_new.png"
+                src="../assets/images/fotocewe1_news.png"
                 class="w-full h-full rounded-xl shadow-lg shadow-[#6b6b67]"
                 data-aos="zoom-in-up"
                 data-aos-duration="1500"
@@ -709,7 +725,7 @@
 
             <div class="w-1/3 h-full relative mr-3">
               <img
-                src="../assets/images/fotobersama7.jpg"
+                src="../assets/images/FotoDepan.jpg"
                 class="w-full h-full rounded-xl shadow-lg shadow-[#6b6b67]"
                 data-aos="zoom-in-up"
                 data-aos-duration="1500"
