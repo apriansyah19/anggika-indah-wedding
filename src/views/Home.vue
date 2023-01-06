@@ -513,14 +513,14 @@
       <div class="min-h-screen w-full flex bg-[#cfcabc] font-akaya snow-bg" id="lokasi">
           <div class="min-h-1/2 m-auto pb-36">
             <img src="../../public/decoration-2.png" class="w-full mb-4" />
-               <!-- <h1
+               <h1
             class="text-center text-3xl mb-4"
             data-aos="zoom-in-up"
             data-aos-duration="1500"
             data-aos-once="true"
           >
-            Akad Nikah & Resepsi
-          </h1> -->
+            Akad Nikah
+          </h1>
           <!-- <img
             src="../assets/images/gedung.png"
             data-aos="zoom-in-down"
@@ -529,25 +529,25 @@
             class="w-3/5 mx-auto"
             alt=""
           /> -->
-          <!-- <div
+          <div
               class="w-[95%] m-auto rounded-xl border-[1px] border-[#CED4D9] bg-white"
               data-aos="zoom-in-down"
               data-aos-duration="1500"
               data-aos-once="true"
-            > -->
-            <!-- <div class="w-[97%] m-auto"> -->
-             <!-- <iframe 
+            >
+            <div class="w-[97%] m-auto">
+             <iframe 
               width="100%" 
               height="350" 
               frameborder="0" 
               scrolling="no" 
               marginheight="0" 
               marginwidth="0" 
-             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.02579920512838!2d104.73633907775816!3d-2.982836022772477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b755c7f2b41c5%3A0x6fcdace0b5e7cfc1!2sKost%20Bu%20JAMILAH!5e0!3m2!1sid!2sid!4v1655116598588!5m2!1sid!2sid">
-          </iframe> -->
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.3303486706363!2d103.49417611475626!3d-2.717858498019984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1446e0d5cf52efab!2zMsKwNDMnMDQuMyJTIDEwM8KwMjknNDYuOSJF!5e0!3m2!1sid!2sid!4v1672976119170!5m2!1sid!2sid">
+          </iframe>
           
           
-            <!-- <GoogleMap
+            <GoogleMap
             api-key="AIzaSyAOEwijcOqYLlzcwx98L7E0DoCw0Ng4ME8"
             style="width: 100%; height: 370px"
             :center="center"
@@ -560,34 +560,41 @@
                   scaledSize: { height: 43, width: 40 },
                  }
                 }" />
-            </GoogleMap> -->
-            <!-- </div> -->
+            </GoogleMap>
+            </div>
 
-          <!-- </div> -->
-            <h2
+          </div>
+            <!-- <h2
               class="text-center text-lg mt-4"
               data-aos="zoom-in-up"
               data-aos-duration="1500"
               data-aos-once="true"
             >
               Tempat Lokasi
-            </h2>
-            <h3
-              class="text-center text-base mt-2"
-              data-aos="zoom-in-down"
-              data-aos-duration="1500"
-              data-aos-once="true"
-            >
-              Akad Nikah
-            </h3>
+            </h2> -->
             <p
               class="text-center text-xs mt-2"
               data-aos="zoom-in-up"
               data-aos-duration="1500"
               data-aos-once="true"
             >
-              Masjid Nurul Huda Desa Keban 2
+             Masjid Nurul Huda Desa Keban 2
             </p>
+          <div
+              class="w-full flex"
+              data-aos="zoom-in-down"
+              data-aos-duration="1500"
+              data-aos-once="true"
+            >
+              <a
+                target="_blank"
+                href="https://goo.gl/maps/p5RhkDZsh6W9s2Vt8"
+                class="animate-bounce px-2 py-2 max-w-xl bg-[#958277] text-white rounded-lg mt-8 hover:opacity-80 focus:outline-none active:outline-none text-base text-center inline-block mx-auto"
+              >
+                Lihat Lokasi
+              </a>
+            </div>
+
             <h3
               class="text-center text-base mt-2"
               data-aos="zoom-in-down"
@@ -604,20 +611,6 @@
             >
               Gedung Serba Guna Desa Keban 2
             </p>
-            <!-- <div
-              class="w-full flex"
-              data-aos="zoom-in-down"
-              data-aos-duration="1500"
-              data-aos-once="true"
-            >
-              <a
-                target="_blank"
-                href="https://goo.gl/maps/pVxmJQTxju7o3ugm7"
-                class="animate-bounce px-2 py-2 max-w-xl bg-[#958277] text-white rounded-lg mt-8 hover:opacity-80 focus:outline-none active:outline-none text-base text-center inline-block mx-auto"
-              >
-                Lihat Lokasi
-              </a>
-            </div> -->
             <img
               src="../../public/decoration-2.png"
               class="w-full mt-4 rotate-180"
