@@ -364,7 +364,7 @@
               data-aos-once="true" 
               />
             <div
-              class="w-[80%] bg-[url(./fotobersama7.jpg)] h-72 bg-blend-multiply bg-cover bg-center text-white p-4 mx-auto rounded-xl border-[1px] border-[#CED4D9] mb-4 flex flex-col justify-end shadow-slate-400 shadow-lg"
+              class="w-[80%] bg-[url(./FotoDepan.jpg)] h-72 bg-blend-multiply bg-cover bg-center text-white p-4 mx-auto rounded-xl border-[1px] border-[#CED4D9] mb-4 flex flex-col justify-end shadow-slate-400 shadow-lg"
               data-aos="zoom-in-down"
               data-aos-duration="1500"
               data-aos-once="true"
